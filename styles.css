@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+body {
+    background-color: #1D2549;
+}
+nav {
+    position: fixed;
+    top: 0;
+    height: 5rem;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+nav h1 {
+    color: #BDF347; 
+    margin: 20px 20px;
+    font-size: 33px;
+    display: inline-block;
+}
+nav .right {
+    margin-right: 0.5rem;
+}
+.container {
+    margin: 40px;
+}
+.content {
+    display: flex;
+    margin-top: 7rem;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.title {
+    color: #BDF347; 
+    font-size: 47px;
+    margin-top: 10px;
+}
+p {
+    color: white;
+    margin: 7px 0;
+}
+h3 {
+    color: #FCDF5D;
+}
+button {
+    padding: 8px 16px;
+    width: 10rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 19px;
+    background-color: #BDF347;
+    margin: 10px 0;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-right: 6px;
+    list-style-type: none;
+}
+ul li {
+    margin: 6px;
+    display: inline;
+}
+ul li a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+ul li a:hover {
+    text-decoration: underline;
+    color: #BDF347; 
+}
+.wcpe {
+    margin-top: 6rem;
+}
+.row {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .columns {
+    width: 33%;
+    min-width: 280px;
+    vertical-align: top;/*Fix for different     height elements*/
+    margin-bottom: 10px;
+    display: inline-block;
+    color: #FCDF5D;
+  }
+ .colum h3{
+    color: #FCDF5D;
+  }
+  .colums p{
+    color: #FCDF5D;
+  }
+  .colums .align-right {
+    text-align: right;
+  }
+section {
+    margin-top: 6rem;
+}
+li {
+    color: white;
+}
+h2 {
+    color: #BDF347;
+}
